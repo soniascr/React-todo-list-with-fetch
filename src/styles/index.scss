@@ -1,13 +1,59 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+body {
+    background: rgb(238, 238, 238);
+    
+}
+
+h1 {
+    color: rgb(226, 183, 189);
+}
+
+.container {
+    max-width: 600px;
+}
+
+.list-group-flush {
+   
+    background: #fff;
+    box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+    padding: 10px;
+
+}
+
+.input {
+    border: 0;
+    box-shadow: none; 
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+
+.close {
+    color: rgb(226, 183, 189);
+    font-weight: 300;
+   
+}
+
+.close:hover {
+ color: rgb(165, 62, 76);   
+}
